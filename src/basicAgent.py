@@ -1,8 +1,9 @@
 from __future__ import division
-import csv
+
 from itertools import chain
-import pandas as pd
+
 import utilities as u
+
 
 def make_sample_submission():
     airports = u.read_airports()
